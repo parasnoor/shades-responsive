@@ -1,0 +1,196 @@
+
+body {
+    margin: 0px;
+   padding:0px;
+
+
+}
+.container{
+    
+    background-color: #c4e3f1;
+    height: 700px; 
+width:100% ;
+
+}
+
+.navbar {
+    display: flex;
+     text-transform: capitalize;
+     margin: auto; 
+    height: 40px;
+    width: 80%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.navbar .logo img {
+    height: 40px;
+    
+}
+
+.navbar .links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar .links a {
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.navbar .links a:hover {
+    color: #0c0c0c;
+}
+
+
+
+.navbar .button:hover {
+    background-color: #4682b4;
+}
+
+
+
+p2 {
+    text-transform: uppercase;
+    color: #2d2a2a;
+    font-size: x-small;
+}
+
+p0 {
+    font-size: 12px;
+}
+/* center */
+.center {
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    height: 50%;
+    margin: auto;
+    margin-top: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
+button1 {
+    width: 50%;
+    height: 30%;
+    background-color: hsl(0, 88%, 50%);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 2px;
+    justify-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+}
+
+
+.d-flex {
+    display: flex;
+    gap: 5px;
+
+    margin-top: 10px;
+
+}
+
+.email {
+    font-size: small;
+    color: gray;
+    height: 30px;
+}
+
+p1 {
+    font-size: 10px;
+    color: grey;
+}
+
+.mainbox {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.f {
+    color: #4682b4;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.fa-solid {
+    color: #4682b4;
+
+}
+
+.box1 {
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    width: 20%;
+    height: 40%;
+    gap: 10px;
+}
+
+.box2 {
+    align-items: center;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    width: 20%;
+    height: 40%;
+    gap: 10px;
+}
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    align-items: center;
+    width: 20%;
+    height: 40%;
+    gap: 10px;
+}
+@media screen and (max-width:880px) {
+
+    .navbar .links {
+     display: none;
+    }
+  
+}
+@media screen and (max-width:430px) {
+
+    .container{
+    height: 1150px;
+}
+   
+    .mainbox{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -100px;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+    button1{
+        width: 155px;
+    }
+}
+    
+
+    
